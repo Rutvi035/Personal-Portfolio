@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
-  // Timeline,
   Expertise,
-  // Project,
-  // Contact,
+  Project,
+  Contact,
   Navigation,
-  // Footer,
+  AboutMe,
+  Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.css';
@@ -31,12 +31,12 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <AboutMe/>
             <Expertise/>
-            {/* <Timeline/>
             <Project/>
-            <Contact/> */}
+            <Contact/>
         </FadeIn>
-        {/* <Footer /> */}
+        <Footer />
     </div>
     );
 }

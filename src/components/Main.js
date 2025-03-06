@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../assets/styles/Main.css";
+import '../assets/styles/AboutMe.css';
 
 function Main() {
   return (
@@ -30,19 +31,27 @@ function Main() {
               <LinkedInIcon />
             </a>
           </div>
-          <h1>Rutvi Dekiwadia</h1>
-          <p>Full Stack Developer</p>
+          <h1>Welcome to my portfolio</h1>
+          <a
+              href="#aboutMe"
+              target="_self"
+              rel="noreferrer"
+              className="resume-link"
+            >
+              About Me
+            </a>
+          {/* <p>Full Stack Developer</p> */}
 
           <div className="mobile_social_icons">
             <a
-              href="https://github.com/yujisatojr"
+              href="https://github.com/Rutvi035"
               target="_blank"
               rel="noreferrer"
             >
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/yujisato/"
+              href="https://www.linkedin.com/in/rutvi-dekiwadia/"
               target="_blank"
               rel="noreferrer"
             >
